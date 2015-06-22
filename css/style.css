@@ -1,0 +1,52 @@
+	body {
+	    background-color: #f9f9f9;
+	}
+	#value {
+	    text-align: center;
+	}
+	[class^="line"] {
+	    height: 1px;
+	    background-color: white;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform-origin: 0% 0%;
+	}
+
+	[id^="circle"] {
+	    position: relative;
+	    border-radius: 50%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	[id^="circle-in"] {
+	    position: absolute;
+	    top: 15px;
+	    left: 15px;
+	    border-radius: 50%;
+	    background: #fff;
+	    z-index: 1;
+	}
+	[id^="picker"] {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    height: 30px;
+	    margin-top: -15px;
+	    width: 53%;
+	    z-index: 1;
+	    -webkit-transform-origin: center left;
+	    -moz-transform-origin: center left;
+	    -ms-transform-origin: center left;
+	    -o-transform-origin: center left;
+	    transform-origin: center left;
+	}
+	[id^="pic-circle"] {
+	    width: 25px;
+	    height: 25px;
+	    border-radius: 50%;
+	    background: #fff;
+	    margin: 0 3px 0 auto;
+	    cursor: pointer;
+	    border: 1px solid #ccc;
+	}
