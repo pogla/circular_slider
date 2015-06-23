@@ -4,3 +4,5 @@ For multiple sliders there has to be an order. From the biggest one to the small
 CircularSlider(SliderOptions("container", "lightgreen", 0, 1000, 20, 150));
 
 CircularSlider(SliderOptions("container", "brown", 0, 1000, 20, 120));
+
+Example: http://jsfiddle.net/pogla/rhs7otnf/7/
